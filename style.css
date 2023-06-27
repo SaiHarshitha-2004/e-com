@@ -1,0 +1,218 @@
+
+/**
+* ! nav bar styles.....
+**/
+
+.titlebar{
+  /* text-align: center; */
+  margin: 3px;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 50px;
+  height: 5%;
+}
+
+.title{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+.cart-container {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .cart-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  .cart-icon i {
+    color: black;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+  }
+  button{
+    font-size: 25px;
+  }
+  button:hover{
+    background-color:rgba(91, 91, 92, 0.779);
+
+  }
+  .secondNavBar {
+    color: aliceblue;
+    background-color: black;
+    margin-bottom: 30px;
+    font-size: 25px;
+    /* position: relative; */
+    max-height: 300px;
+    width: 100%;
+  }
+  .secondNavBar .secondNavBar-items {
+    position: relative;
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    padding: 30px;
+  }
+  .secondNavBar-items li:hover{
+    background-color:rgba(91, 91, 92, 0.779);
+  }
+  .secondNavBar-items li{
+    height: 25px;
+    padding: 10px;
+    /* border: 1px solid red; */
+  }
+  .dropDownMenu:hover .drop-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .drop-content{
+    top:25px;
+    z-index: 1;
+  }
+  .drop-content button{
+    padding: 25px;
+  }
+  .drop-content{
+    display: none;
+  }
+
+/**
+* ? TOP BRANDS STYLES........
+**/
+/**
+* ? LATEST LAUNCHES STYLES........
+**/
+
+
+
+/**
+* ? WOMEN STYLES>........
+*/
+.title{
+height: 400px;
+display: flex;
+align-items: center;
+object-fit: cover;
+}
+.container{
+height: 500px;
+ display: flex;
+ justify-content: center;
+}
+.content{
+padding-top: 50px;
+margin: 20px 70px;
+color: whitesmoke;
+font-size:20px;
+
+}
+.title-content{
+width: 500px;
+}
+.img{
+width: 100%;
+}
+.title-content{
+background-color: rgb(228, 125, 35);
+height: 99%;
+}
+
+/**
+* ! table styles/
+**/
+table{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+td:hover , th:hover{
+  text-decoration: underline;
+  color: aqua;
+}
+td , th{
+  width: 100px;
+  text-align: center;
+  height:50px;
+  color:aliceblue;
+  background-color: black;
+}
+tr{
+  margin:20px;
+  padding: 5px;
+}
+.title{
+height: 400px;
+display: flex;
+align-items: center;
+object-fit: cover;
+}
+.container{
+height: 500px;
+ display: flex;
+ justify-content: center;
+}
+.content{
+padding-top: 50px;
+margin: 20px 70px;
+color: whitesmoke;
+font-size:20px;
+
+}
+.title-content{
+width: 500px;
+}
+.img{
+width: 100%;
+}
+.title-content{
+background-color: rgb(228, 125, 35);
+height: 99%;
+}
+/**
+*  ? FASHION STYLESSSSS............
+**/
+
+/**
+*  ! FONT FAMILY STYLES>...
+**/
+*{
+    line-height: 0.1px;
+    font-family: 'Vollkorn', serif;
+}
+.heading-title{
+  font-size:48px;
+}
+.mini-heading{
+  font-size: 35px;
+}
+.description{
+  font-size:30px ;
+}
+.amount{
+  font-size: 25px;
+  color: rgb(0, 17, 255);
+}

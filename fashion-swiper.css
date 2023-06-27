@@ -1,0 +1,50 @@
+html,
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  /* color: #000; */
+  margin: 0;
+  padding: 0;
+}
+.fashion{
+  background: #45567661;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+}
+.fashion-content , .fashion-images{
+  display: grid;
+  align-items: center;
+  grid-gap:1px;
+}
+.fashion-sale-content{
+    background-color: rgb(69, 187, 237);
+    width:450px;
+    height:300px;
+    text-align: center;
+    padding-top: 200px;
+}
+swiper-container {
+    padding-top: 5px;
+    border: 2px solid red;
+    margin: 10px;
+    width:  80%;
+    height: 500px;
+}
+
+swiper-slide {
+    width: 50%;    
+  text-align: center;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
